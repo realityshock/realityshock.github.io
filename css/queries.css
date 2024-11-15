@@ -98,14 +98,6 @@
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
   }
 
-  .section-testimonials {
-    grid-template-columns: 1fr;
-  }
-
-  .gallery {
-    grid-template-columns: repeat(6, 1fr);
-  }
-
   .cta {
     /* 3/5 60% 2/5 = 40% */
     grid-template-columns: 3fr 2fr;
@@ -199,6 +191,10 @@
     margin-bottom: 4.8rem;
   }
 
+  .meal {
+    width: 100%;
+  }
+
   .pricing-plan {
     width: 100%;
   }
@@ -252,7 +248,7 @@
   }
 
   .logos img {
-    height: 1.2rem;
+    height: 1.8rem;
   }
 
   /* The nth child within the siblings of the parent container even though the selector is referencing step-img-box */
@@ -266,15 +262,6 @@
 
   .step-img-box {
     transform: translateY(2.4rem);
-  }
-
-  .testimonials {
-    grid-template-columns: 1fr;
-  }
-
-  .gallery {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.2rem;
   }
 
   .cta {

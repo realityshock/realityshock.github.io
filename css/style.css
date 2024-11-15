@@ -15,7 +15,7 @@
 }
 
 .logo {
-  height: 2.2rem;
+  height: 4.4rem;
 }
 
 /**********************/
@@ -145,7 +145,7 @@
   width: 4.8rem;
   border-radius: 50%;
   margin-right: -1.6rem;
-  border: 3px solid #fdf2e9;
+  border: 3px solid #fae5d3;
 }
 
 .delivered-imgs img:last-child {
@@ -196,7 +196,7 @@
 /**********************/
 
 .section-how {
-  padding: 9.6rem 0;
+  padding: 7.6rem 0;
 }
 
 .step-number {
@@ -254,7 +254,7 @@
 /**********************/
 
 .section-meals {
-  padding: 9.6rem 0;
+  padding: 7.6rem 0;
 }
 
 .meal {
@@ -262,6 +262,7 @@
   border-radius: 11px;
   overflow: hidden; /* makes image not bleed over the border */
   transition: all 0.4s;
+  width: 75%;
 }
 
 .meal:hover {
@@ -337,71 +338,11 @@
 }
 
 /**********************/
-/* TESTIMONIALS SECTION */
-/**********************/
-
-.section-testimonials {
-  background-color: #fdf2e9;
-  display: grid;
-  grid-template-columns: 55fr 45fr;
-  align-items: center;
-}
-
-.testimonials-container {
-  padding: 9.6rem;
-}
-
-.testimonials {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 4.8rem;
-  column-gap: 8rem;
-}
-
-.testimonial-img {
-  width: 6.4rem;
-  border-radius: 50%;
-  margin-bottom: 1.2rem;
-}
-
-.testimonial-text {
-  font-size: 1.8rem;
-  line-height: 1.8;
-  margin-bottom: 1.6rem;
-}
-
-.testimonial-name {
-  font-size: 1.6rem;
-  color: #6f6f6f;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  padding: 1.6rem;
-}
-
-.gallery-item {
-  overflow: hidden;
-}
-
-.gallery-item img {
-  display: block;
-  width: 100%;
-  transition: all 0.4s;
-}
-
-.gallery-item img:hover {
-  transform: scale(1.1);
-}
-
-/**********************/
 /* PRICING SECTION */
 /**********************/
 
 .section-pricing {
-  padding: 9.6rem 0;
+  padding: 7.6rem 0;
 }
 
 .pricing-plan {
@@ -421,20 +362,6 @@
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
-}
-
-.pricing-plan--complete::after {
-  content: "Best Value";
-  position: absolute;
-  top: 5%;
-  right: -8%;
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #333;
-  background-color: #ffd43b;
-  padding: 0.8rem 3.2rem;
-  transform: rotate(45deg);
 }
 
 .plan-header {
@@ -588,7 +515,7 @@
 /**********************/
 
 .footer {
-  padding: 12.8rem 0;
+  padding: 10.8rem 0;
   border-top: 1px solid #eee;
 }
 
